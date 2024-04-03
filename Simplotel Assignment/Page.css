@@ -1,0 +1,125 @@
+*{
+   margin: 0; 
+   padding: 0;
+  
+   box-sizing: border-box;
+   
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FA7070 ;
+    padding: 5px 0;
+    color:#000000;
+
+}
+nav ul{
+    list-style-type: none;
+
+}
+nav ul a li{
+    display: inline-block;
+    margin: 10px;
+    
+}
+nav ul a{
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 0.2s ease-in;
+
+}
+nav ul a:hover{
+    background-color: #ac5555;
+    color: bisque;
+}
+.logo{
+   float: right;
+   margin-right: 15px;
+}
+.logo img{
+    width: 50px;
+}
+.row{
+   
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:50px;
+    overflow-x: hidden;
+    
+}
+section{
+    font-family: sans-serif;
+    background:linear-gradient(to right,khaki,pink);
+    
+}
+
+.row .imageWrapper img{
+    width: 800px; ;
+    height: 600px;
+    object-fit: cover;
+    padding-top: 0px;
+    
+    
+   
+}
+
+
+.row .contentWrapper .content h1{
+    font-size: 50px;
+    padding-top: 100px;
+    padding-left: 70px;
+    letter-spacing: 10px;
+}
+.row .contentWrapper .content p{
+    font-size: 18px;
+    padding-top: 100px;
+    padding-left: 70px;
+   line-height: 30px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.row .contentWrapper .content a button {
+    color: white;
+   background:  #FA7070;
+   margin: 70px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    border-width: 80px;
+    font-size: 16px;
+   text-decoration:none ;
+   
+
+}
+.page2{
+    font-family: sans-serif;
+    
+
+}
+
+.images .img1 img{
+    display: inline-block;
+  
+    width: 300px;
+    height: 350px;
+    padding-top: 150px;
+    padding-left: 90px;
+    gap: 1px;
+    
+
+}
+.images .img2 .img{
+    display:block;
+    width: 300px;
+    height: 600px;
+   float: left;
+}
+
